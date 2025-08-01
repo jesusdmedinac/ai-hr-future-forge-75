@@ -1,0 +1,33 @@
+import { Hero } from "@/components/Hero";
+import { WhatIsIAthon } from "@/components/WhatIsIAthon";
+import { TargetAudience } from "@/components/TargetAudience";
+import { Benefits } from "@/components/Benefits";
+import { HowItWorks } from "@/components/HowItWorks";
+import { Challenges } from "@/components/Challenges";
+import { Mentors } from "@/components/Mentors";
+import { SocialProof } from "@/components/SocialProof";
+import { Pricing } from "@/components/Pricing";
+import { Certification } from "@/components/Certification";
+import { FAQ } from "@/components/FAQ";
+import { Footer } from "@/components/Footer";
+
+const Index = () => {
+  return (
+    <div className="min-h-screen">
+      <Hero />
+      <WhatIsIAthon />
+      <TargetAudience />
+      <Benefits />
+      <HowItWorks />
+      <Challenges />
+      <Mentors />
+      <SocialProof />
+      <Pricing />
+      <Certification />
+      <FAQ />
+      <Footer />
+    </div>
+  );
+};
+
+export default Index;
