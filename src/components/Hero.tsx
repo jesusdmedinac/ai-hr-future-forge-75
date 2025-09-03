@@ -25,12 +25,14 @@ export const Hero = () => {
             Convierte la IA en tu copiloto, no en tu competencia. Aprende haciendo, crea soluciones reales y transforma tu rol en HR.
           </p>
           
-          <Button 
-            size="lg" 
-            className="text-xl px-8 py-6 bg-white text-primary hover:bg-gray-100 font-semibold shadow-2xl"
-          >
-            ¡Inscríbete ahora!
-          </Button>
+          <a href="https://wa.me/593964222040">
+            <Button 
+              size="lg" 
+              className="text-xl px-8 py-6 bg-white text-primary hover:bg-gray-100 font-semibold shadow-2xl"
+            >
+              ¡Inscríbete ahora!
+            </Button>
+          </a>
           
           <div className="mt-16 grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
@@ -39,11 +41,11 @@ export const Hero = () => {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="font-semibold text-blue-200">Duración</div>
-              <div className="text-white">4 semanas</div>
+              <div className="text-white">2 semanas (1 hora diaria aprox)</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="font-semibold text-blue-200">Inicio</div>
-              <div className="text-white">15 de septiembre</div>
+              <div className="text-white">Viernes 10 de octubre (kick off)</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
               <div className="font-semibold text-blue-200">Participación</div>
