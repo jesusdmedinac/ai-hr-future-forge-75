@@ -34,16 +34,6 @@ export const WhatIsIAthon = () => {
                 <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="w-8 h-8 text-primary" />
                 </div>
-                <h4 className="font-semibold text-lg mb-2">Plataforma Skilt</h4>
-                <p className="text-sm text-muted-foreground">
-                  Tu espacio para retos, feedback y certificación
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle className="w-8 h-8 text-primary" />
-                </div>
                 <h4 className="font-semibold text-lg mb-2">Gamificación</h4>
                 <p className="text-sm text-muted-foreground">
                   Aprende colaborando y compitiendo
