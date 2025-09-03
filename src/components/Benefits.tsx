@@ -59,7 +59,7 @@ export const Benefits = () => {
           <div className="mt-16 bg-gradient-to-r from-primary/10 to-primary/5 rounded-2xl p-8 border border-primary/20">
             <div className="text-center">
               <h3 className="text-2xl font-semibold mb-4 text-primary">
-                Para tu área de HR
+                Beneficios para tu área de HR
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center">
