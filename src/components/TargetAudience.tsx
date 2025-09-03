@@ -33,6 +33,14 @@ export const TargetAudience = () => {
                 Especialistas en desarrollo organizacional
               </p>
             </div>
+                        
+            <div className="bg-card rounded-xl p-6 shadow-lg border">
+              <TrendingUp className="w-12 h-12 text-primary mx-auto mb-4" />
+              <h3 className="font-semibold text-lg mb-2">Visionarios del Talento</h3>
+              <p className="text-muted-foreground text-sm">
+                Todos los apasionados por el desarrollo de talento
+              </p>
+            </div>
           </div>
           
           <div className="bg-primary/10 rounded-2xl p-8 border border-primary/20">
