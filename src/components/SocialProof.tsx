@@ -1,10 +1,27 @@
 import { CheckCircle, Quote } from "lucide-react";
+import usfqImage from "@/assets/usfq.png";
+import utplImage from "@/assets/utpl.png";
+import bancoGuayaquilImage from "@/assets/banco-guayaquil.png";
+import bancoLojaImage from "@/assets/banco-loja.png";
 
 export const SocialProof = () => {
   const achievements = [
-    "Hackathon USFQ",
-    "Bootcamp UTPL", 
-    "Speed Dating HR Tech LATAM"
+    {
+      name: "Universidad San Francisco de Quito",
+      image: usfqImage
+    },
+    {
+      name: "Universidad Técnica Particular de Loja",
+      image: utplImage
+    },
+    {
+      name: "Banco Guayaquil",
+      image: bancoGuayaquilImage
+    },
+    {
+      name: "Banco de Loja",
+      image: bancoLojaImage
+    },
   ];
 
   const testimonials = [
@@ -32,12 +49,18 @@ export const SocialProof = () => {
             {achievements.map((achievement, index) => (
               <div 
                 key={index}
-                className="bg-card rounded-xl p-8 shadow-lg border text-center hover:shadow-xl transition-shadow"
+                className="object-cover aspect-square bg-card rounded-xl p-4 shadow-lg border text-center hover:shadow-xl transition-shadow"
               >
-                <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
-                <h3 className="font-semibold text-xl text-card-foreground">
-                  {achievement}
-                </h3>
+                <img 
+                  src={achievement.image} 
+                  alt={achievement.name}
+                  className="w-full h-full object-cover aspect-square"
+                />
+                <div className="p-4">
+                  <h3 className="font-semibold text-xl text-card-foreground">
+                    {achievement.name}
+                  </h3>
+                </div>
               </div>
             ))}
           </div>
