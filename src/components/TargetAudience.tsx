@@ -9,8 +9,8 @@ export const TargetAudience = ({ id }: { id: string }) => {
             Dirigido a
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-card rounded-xl p-6 shadow-lg border">
+          <div className="flex flex-wrap justify-center items-stretch gap-8 mb-12">
+            <div className="bg-card rounded-xl p-6 shadow-lg border w-full sm:w-1/2 md:w-[30%]">
               <Users className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="font-semibold text-lg mb-2">Profesionales de RRHH</h3>
               <p className="text-muted-foreground text-sm">
@@ -18,7 +18,7 @@ export const TargetAudience = ({ id }: { id: string }) => {
               </p>
             </div>
             
-            <div className="bg-card rounded-xl p-6 shadow-lg border">
+            <div className="bg-card rounded-xl p-6 shadow-lg border w-full sm:w-1/2 md:w-[30%]">
               <Target className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="font-semibold text-lg mb-2">Business Partners</h3>
               <p className="text-muted-foreground text-sm">
@@ -26,7 +26,7 @@ export const TargetAudience = ({ id }: { id: string }) => {
               </p>
             </div>
             
-            <div className="bg-card rounded-xl p-6 shadow-lg border">
+            <div className="bg-card rounded-xl p-6 shadow-lg border w-full sm:w-1/2 md:w-[30%]">
               <TrendingUp className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="font-semibold text-lg mb-2">Líderes de Talento</h3>
               <p className="text-muted-foreground text-sm">
@@ -34,7 +34,7 @@ export const TargetAudience = ({ id }: { id: string }) => {
               </p>
             </div>
                         
-            <div className="bg-card rounded-xl p-6 shadow-lg border">
+            <div className="bg-card rounded-xl p-6 shadow-lg border w-full sm:w-1/2 md:w-[30%]">
               <TrendingUp className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="font-semibold text-lg mb-2">Visionarios del Talento</h3>
               <p className="text-muted-foreground text-sm">
