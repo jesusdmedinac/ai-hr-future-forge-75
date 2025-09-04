@@ -31,11 +31,11 @@ export const Pricing = ({ id }: { id: string }) => {
             Elige la opción que mejor se adapte a tu necesidad
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
+          <div className="flex flex-wrap justify-center items-stretch gap-8">
             {plans.map((plan, index) => (
               <div 
                 key={index}
-                className={`relative bg-card rounded-2xl p-8 shadow-lg border ${
+                className={`relative bg-card rounded-2xl p-8 shadow-lg border w-full md:w-1/2 lg:w-1/3 ${
                   plan.popular ? 'border-primary ring-2 ring-primary/20' : ''
                 }`}
               >
