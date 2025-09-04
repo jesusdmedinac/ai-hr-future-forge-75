@@ -18,36 +18,6 @@ export const Pricing = () => {
       ],
       popular: false
     },
-    {
-      name: "Equipo",
-      price: "$650",
-      icon: Users,
-      description: "Hasta 5 personas por grupo",
-      features: [
-        "Todos los beneficios individuales",
-        "Forman su propio equipo",
-        "Sesiones grupales adicionales",
-        "Mentorías especializadas",
-        "Networking entre equipos",
-        "Certificación grupal"
-      ],
-      popular: true
-    },
-    {
-      name: "Corporativo",
-      price: "$1,500",
-      icon: Building,
-      description: "Para empresas (10 personas)",
-      features: [
-        "Todos los beneficios anteriores",
-        "Retos personalizados",
-        "Mentoría ejecutiva",
-        "Reporte de resultados",
-        "Seguimiento post-evento",
-        "Certificaciones corporativas"
-      ],
-      popular: false
-    }
   ];
 
   return (
@@ -55,13 +25,13 @@ export const Pricing = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center text-foreground">
-            Planes y Precios
+            Inversión
           </h2>
           <p className="text-xl text-center mb-16 text-muted-foreground">
             Elige la opción que mejor se adapte a tu necesidad
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
             {plans.map((plan, index) => (
               <div 
                 key={index}
@@ -101,26 +71,24 @@ export const Pricing = () => {
                   ))}
                 </ul>
                 
-                <Button 
-                  className={`w-full ${
-                    plan.popular 
-                      ? 'bg-primary hover:bg-primary/90' 
-                      : 'bg-secondary hover:bg-secondary/80'
-                  }`}
-                  size="lg"
-                >
-                  Quiero participar ahora
-                </Button>
+                <a href="https://wa.me/593964222040">
+                  <Button 
+                    className={`w-full bg-slate-500 hover:bg-slate-700`}
+                    size="lg"
+                  >
+                    Quiero participar ahora
+                  </Button>
+                </a>
               </div>
             ))}
           </div>
           
           <div className="mt-16 text-center">
             <p className="text-muted-foreground mb-4">
-              💰 <strong>Early Bird:</strong> 20% de descuento hasta el 1 de septiembre
+              💰 <strong>Precio por early bird (hasta 28 sep) $150</strong>
             </p>
             <p className="text-muted-foreground">
-              👥 <strong>Bonus referidos:</strong> Invita a un amigo y ambos reciben 15% de descuento
+              👥 <strong>Bonus referidos:</strong> Invita a 2 amigos y todos reciben 15% de descuento
             </p>
           </div>
         </div>
