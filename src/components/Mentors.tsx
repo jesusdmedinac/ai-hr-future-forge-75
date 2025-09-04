@@ -1,20 +1,41 @@
 import { ExternalLink, Linkedin } from "lucide-react";
-import guidoImage from "@/assets/mentor-guido.jpg";
-import danielaImage from "@/assets/mentor-daniela.jpg";
+import guidoRissoImage from "@/assets/mentor-guido-risso.jpeg";
+import christianRiveraImage from "@/assets/mentor-christina-rivera.jpeg";
+import danielaEndaraImage from "@/assets/mentor-daniela-endara.jpeg";
+import mariaFernandaGarciaImage from "@/assets/mentor-maria-fernanda-garcia.jpeg";
+import martinRomeroImage from "@/assets/mentor-martin-romero.jpeg";
 
 export const Mentors = () => {
   const mentors = [
     {
+      name: "Christian Rivera",
+      role: "Cofundador & CEO de Kudert | Skilt ✪ Emprendedor HR tech",
+      image: christianRiveraImage,
+      linkedin: "https://www.linkedin.com/in/christorivera/"
+    },
+    {
       name: "Guido Risso",
-      role: "AI Strategist & Speaker",
-      image: guidoImage,
+      role: "People, Tech & the Future 🚀 | HR Tech | Co-founder @HRissan | HR Manager | Building the next work.",
+      image: guidoRissoImage,
       linkedin: "https://www.linkedin.com/in/guidorisso/"
     },
     {
-      name: "Daniela Endara",
-      role: "HR Tech & Cultura Digital DEI",
-      image: danielaImage,
+      name: "Daniela Endara Montenegro",
+      role: "Consultora en Equidad e Inclusión en las Organizaciones",
+      image: danielaEndaraImage,
       linkedin: "https://www.linkedin.com/in/danielaendara/"
+    },
+    {
+      name: "María Fernanda García",
+      role: "Unleashing Team Potential Through Innovation 💡 | Owner @LearnyTeams | Agile & Innovation Consultant | Official EduScrum Trainer for Ecuador | Design Sprint Certificated",
+      image: mariaFernandaGarciaImage,
+      linkedin: "https://www.linkedin.com/in/mafer-garcia/"
+    },
+    {
+      name: "Martin Romero",
+      role: "CX Analyst at IGNIS Media Agency | Sales and Marketing",
+      image: martinRomeroImage,
+      linkedin: "https://www.linkedin.com/in/martin-romero-b2214973/"
     }
   ];
 

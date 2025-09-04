@@ -49,16 +49,13 @@ export const TargetAudience = () => {
             </h3>
             <ul className="text-lg space-y-4 max-w-2xl mx-auto">
               <li className="flex items-center justify-center gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                Pasar de la teoría a la acción con IA
+                • Pasar de la teoría a la acción con IA
               </li>
               <li className="flex items-center justify-center gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                Agregar valor estratégico al negocio
+                • Agregar valor estratégico al negocio
               </li>
               <li className="flex items-center justify-center gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                Repensar la gestión humana sin perder el toque humano
+                • Repensar la gestión humana sin perder el toque humano
               </li>
             </ul>
             <p className="mt-6 text-muted-foreground italic">
