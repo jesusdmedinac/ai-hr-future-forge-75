@@ -50,11 +50,11 @@ export const Mentors = ({ id }: { id: string }) => {
             Contarás con expertos en IA y RRHH para guiarte en tu transformación
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+          <div className="flex flex-wrap justify-center items-stretch gap-8 mb-12">
             {mentors.map((mentor, index) => (
               <div 
                 key={index}
-                className="bg-card rounded-xl p-8 shadow-lg border text-center hover:shadow-xl transition-shadow"
+                className="bg-card rounded-xl p-8 shadow-lg border text-center hover:shadow-xl transition-shadow w-full md:w-[45%]"
               >
                 <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-primary/20">
                   <img 
