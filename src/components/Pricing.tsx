@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Check, Users, Building, User } from "lucide-react";
+import { WHATSAPP_LINK_SIGNUP } from "@/lib/constants";
 
 export const Pricing = ({ id }: { id: string }) => {
   const plans = [
@@ -71,7 +72,7 @@ export const Pricing = ({ id }: { id: string }) => {
                   ))}
                 </ul>
                 
-                <a href="https://wa.me/593964222040" target="_blank">
+                <a href={WHATSAPP_LINK_SIGNUP} target="_blank">
                   <Button 
                     className={`w-full bg-slate-500 hover:bg-slate-700`}
                     size="lg"

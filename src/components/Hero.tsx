@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-iathon.jpg";
+import { WHATSAPP_LINK_SIGNUP } from "@/lib/constants";
 
 export const Hero = ({ id }: { id: string }) => {
   return (
@@ -25,7 +26,7 @@ export const Hero = ({ id }: { id: string }) => {
             Convierte la IA en tu copiloto, no en tu competencia. Aprende haciendo, crea soluciones reales y transforma tu rol en HR.
           </p>
           
-          <a href="https://wa.me/593964222040" target="_blank">
+          <a href={WHATSAPP_LINK_SIGNUP} target="_blank">
             <Button 
               size="lg" 
               className="text-xl px-8 py-6 bg-white text-primary hover:bg-gray-100 font-semibold shadow-2xl"

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { WHATSAPP_LINK_INFO, WHATSAPP_LINK_SIGNUP } from "@/lib/constants";
 
 export const Footer = () => {
   return (
@@ -13,7 +14,7 @@ export const Footer = () => {
           <p className="text-xl mb-8 opacity-90">
             ¿Te sumas al cambio?
           </p>
-          <a href="https://wa.me/593964222040" target="_blank">
+          <a href={WHATSAPP_LINK_SIGNUP} target="_blank">
             <Button 
               size="lg" 
               className="text-xl px-8 py-6 bg-white text-primary hover:bg-gray-100 font-semibold shadow-2xl"
@@ -92,7 +93,7 @@ export const Footer = () => {
       
       {/* WhatsApp flotante simulado */}
       <div className="fixed bottom-6 right-6 z-50">
-        <a href="https://wa.me/593964222040" target="_blank">
+        <a href={WHATSAPP_LINK_INFO} target="_blank">
           <Button 
             className="rounded-full w-14 h-14 bg-green-500 hover:bg-green-600 shadow-2xl"
             size="icon"
