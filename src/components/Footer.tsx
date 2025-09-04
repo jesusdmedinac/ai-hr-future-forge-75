@@ -12,12 +12,14 @@ export const Footer = () => {
           <p className="text-xl mb-8 opacity-90">
             ¿Te sumas al cambio?
           </p>
-          <Button 
-            size="lg" 
-            className="text-xl px-8 py-6 bg-white text-primary hover:bg-gray-100 font-semibold shadow-2xl"
-          >
-            ¡Inscríbete ahora y lidera el cambio!
-          </Button>
+          <a href="https://wa.me/593964222040">
+            <Button 
+              size="lg" 
+              className="text-xl px-8 py-6 bg-white text-primary hover:bg-gray-100 font-semibold shadow-2xl"
+            >
+              ¡Inscríbete ahora y lidera el cambio!
+            </Button>
+          </a>
         </div>
       </section>
       
