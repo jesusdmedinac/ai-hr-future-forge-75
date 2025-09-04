@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -84,9 +85,9 @@ export const Footer = () => {
 
       {/* Enlaces de navegación */}
       <nav className="sm:ml-auto flex gap-4 sm:gap-6 justify-center py-4">
-        <a className="text-xs hover:underline underline-offset-4 text-gray-500" href="#">
+        <Link to="/terms" className="text-xs hover:underline underline-offset-4">
           Términos y Condiciones
-        </a>
+        </Link>
       </nav>
       
       {/* WhatsApp flotante simulado */}
