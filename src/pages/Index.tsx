@@ -2,6 +2,7 @@ import { Hero } from "@/components/Hero";
 import { WhatIsIAthon } from "@/components/WhatIsIAthon";
 import { TargetAudience } from "@/components/TargetAudience";
 import { Benefits } from "@/components/Benefits";
+import { HowItWorks } from "@/components/HowItWorks";
 import { Challenges } from "@/components/Challenges";
 import { Mentors } from "@/components/Mentors";
 import { SocialProof } from "@/components/SocialProof";
@@ -19,6 +20,7 @@ const Index = () => {
       <WhatIsIAthon />
       <TargetAudience />
       <Benefits />
+      <HowItWorks />
       <Challenges />
       <Mentors />
       <SocialProof />
