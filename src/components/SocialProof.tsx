@@ -86,27 +86,6 @@ export const SocialProof = () => {
               </div>
             ))}
           </div>
-          
-          <div className="mt-16 text-center">
-            <h3 className="text-2xl font-semibold mb-8 text-foreground">
-              Empresas y universidades que confían en Skilt
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 opacity-60">
-              {/* Placeholder for company logos */}
-              <div className="bg-muted rounded-lg h-16 flex items-center justify-center">
-                <span className="text-muted-foreground font-semibold">USFQ</span>
-              </div>
-              <div className="bg-muted rounded-lg h-16 flex items-center justify-center">
-                <span className="text-muted-foreground font-semibold">UTPL</span>
-              </div>
-              <div className="bg-muted rounded-lg h-16 flex items-center justify-center">
-                <span className="text-muted-foreground font-semibold">HR Tech LATAM</span>
-              </div>
-              <div className="bg-muted rounded-lg h-16 flex items-center justify-center">
-                <span className="text-muted-foreground font-semibold">Skilt</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
