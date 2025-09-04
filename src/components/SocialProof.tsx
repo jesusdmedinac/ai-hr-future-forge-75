@@ -45,11 +45,11 @@ export const SocialProof = ({ id }: { id: string }) => {
             Hemos transformado equipos en:
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div className="flex flex-wrap justify-center items-stretch gap-8 mb-16">
             {achievements.map((achievement, index) => (
               <div 
                 key={index}
-                className="object-cover aspect-square bg-card rounded-xl p-4 shadow-lg border text-center hover:shadow-xl transition-shadow"
+                className="object-cover aspect-square bg-card rounded-xl p-4 shadow-lg border text-center hover:shadow-xl transition-shadow w-full sm:w-1/2 md:w-[30%]"
               >
                 <img 
                   src={achievement.image} 
@@ -65,11 +65,11 @@ export const SocialProof = ({ id }: { id: string }) => {
             ))}
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="flex flex-wrap justify-center items-stretch gap-8">
             {testimonials.map((testimonial, index) => (
               <div 
                 key={index}
-                className="bg-primary/5 rounded-xl p-6 border border-primary/20"
+                className="bg-primary/5 rounded-xl p-6 border border-primary/20 w-full md:w-[45%]"
               >
                 <Quote className="w-8 h-8 text-primary mb-4" />
                 <p className="text-lg mb-4 text-foreground italic">
