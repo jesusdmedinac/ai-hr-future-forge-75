@@ -25,11 +25,11 @@ export const Certification = ({ id }: { id: string }) => {
               Obtén una certificación reconocida que valide tus nuevas competencias en IA aplicada a HR
             </p>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="flex flex-wrap justify-center items-stretch gap-6">
               {competencies.map((competency, index) => (
                 <div 
                   key={index}
-                  className="flex items-center gap-3 bg-white/50 rounded-lg p-4"
+                  className="flex items-center gap-3 bg-white/50 rounded-lg p-4 w-full md:w-[45%]"
                 >
                   <div className="bg-primary/20 rounded-full p-2">
                     <Star className="w-5 h-5 text-primary" />

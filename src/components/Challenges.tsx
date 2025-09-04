@@ -40,11 +40,11 @@ export const Challenges = ({ id }: { id: string }) => {
             Desafíos reales de HR con relevancia inmediata para tu trabajo diario
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex flex-wrap justify-center items-stretch gap-8">
             {challenges.map((challenge, index) => (
               <div 
                 key={index}
-                className="bg-card rounded-xl p-6 shadow-lg border hover:shadow-xl transition-all hover:scale-105"
+                className="bg-card rounded-xl p-6 shadow-lg border hover:shadow-xl transition-all hover:scale-105 w-full md:w-[45%] lg:w-[30%]"
               >
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 rounded-lg p-3 flex-shrink-0">
