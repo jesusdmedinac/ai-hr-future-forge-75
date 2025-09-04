@@ -36,9 +36,9 @@ export const HowItWorks = ({ id }: { id: string }) => {
             Cómo funciona el IAthon
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="flex flex-wrap justify-center items-stretch gap-6 mb-16">
             {weeks.map((week, index) => (
-              <div key={index} className="relative">
+              <div key={index} className="relative w-full md:w-[45%] lg:w-[22%]">
                 <div className="bg-card rounded-xl p-6 shadow-lg border text-center h-full">
                   <div className="bg-primary text-primary-foreground rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                     {week.week}
