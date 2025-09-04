@@ -37,11 +37,11 @@ export const Benefits = ({ id }: { id: string }) => {
             Beneficios para ti
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex flex-wrap justify-center items-stretch gap-8">
             {benefits.map((benefit, index) => (
               <div 
                 key={index}
-                className="bg-card rounded-xl p-6 shadow-lg border hover:shadow-xl transition-shadow"
+                className="bg-card rounded-xl p-6 shadow-lg border hover:shadow-xl transition-shadow w-full md:w-[45%] lg:w-[30%]"
               >
                 <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mb-4">
                   <benefit.icon className="w-8 h-8 text-primary" />
@@ -61,16 +61,16 @@ export const Benefits = ({ id }: { id: string }) => {
               <h3 className="text-2xl font-semibold mb-4 text-primary">
                 Beneficios para tu área de HR
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="text-center">
+              <div className="flex flex-wrap justify-center items-stretch gap-6">
+                <div className="text-center w-full md:w-[30%]">
                   <div className="text-3xl font-bold text-primary mb-2">Innovación</div>
                   <p className="text-muted-foreground">Transforma procesos tradicionales</p>
                 </div>
-                <div className="text-center">
+                <div className="text-center w-full md:w-[30%]">
                   <div className="text-3xl font-bold text-primary mb-2">Valor</div>
                   <p className="text-muted-foreground">Genera impacto en el negocio</p>
                 </div>
-                <div className="text-center">
+                <div className="text-center w-full md:w-[30%]">
                   <div className="text-3xl font-bold text-primary mb-2">Upskilling</div>
                   <p className="text-muted-foreground">Desarrolla competencias digitales</p>
                 </div>
