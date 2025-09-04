@@ -41,19 +41,6 @@ export const Certification = () => {
               ))}
             </div>
           </div>
-          
-          <div className="bg-card rounded-xl p-6 shadow-lg border">
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <CheckCircle className="w-6 h-6 text-green-500" />
-              <h4 className="text-xl font-semibold text-card-foreground">
-                Evaluación basada en competencias
-              </h4>
-            </div>
-            <p className="text-muted-foreground">
-              Tu certificación reflejará el nivel de competencias alcanzadas durante el IAthon, 
-              proporcionando un valor real y medible para tu desarrollo profesional.
-            </p>
-          </div>
         </div>
       </div>
     </section>
