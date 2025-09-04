@@ -34,20 +34,20 @@ export const Hero = ({ id }: { id: string }) => {
             </Button>
           </a>
           
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+          <div className="mt-16 flex flex-wrap justify-center items-stretch gap-6 text-center">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 w-full sm:w-1/2 md:w-[22%]">
               <div className="font-semibold text-blue-200">Modalidad</div>
               <div className="text-white">100% online</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 w-full sm:w-1/2 md:w-[22%]">
               <div className="font-semibold text-blue-200">Duración</div>
               <div className="text-white">2 semanas (1 hora diaria aprox)</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 w-full sm:w-1/2 md:w-[22%]">
               <div className="font-semibold text-blue-200">Inicio</div>
               <div className="text-white">Viernes 10 de octubre (kick off)</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 w-full sm:w-1/2 md:w-[22%]">
               <div className="font-semibold text-blue-200">Participación</div>
               <div className="text-white">En equipos</div>
             </div>
