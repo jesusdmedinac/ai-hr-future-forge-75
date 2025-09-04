@@ -9,6 +9,7 @@ import { SocialProof } from "@/components/SocialProof";
 import { Pricing } from "@/components/Pricing";
 import { Certification } from "@/components/Certification";
 import { FAQ } from "@/components/FAQ";
+import { Partners } from "@/components/Partners";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 
@@ -27,6 +28,7 @@ const Index = () => {
       <Pricing />
       <Certification />
       <FAQ />
+      <Partners />
       <Footer />
     </div>
   );
