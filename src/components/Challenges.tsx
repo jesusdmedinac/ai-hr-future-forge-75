@@ -34,7 +34,7 @@ export const Challenges = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center text-foreground">
-            Retos del IAthon
+            Retos propuestos del IAthon
           </h2>
           <p className="text-xl text-center mb-16 text-muted-foreground max-w-3xl mx-auto">
             Desafíos reales de HR con relevancia inmediata para tu trabajo diario
