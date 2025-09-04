@@ -17,8 +17,8 @@ export const WhatIsIAthon = ({ id }: { id: string }) => {
               Por qué es diferente:
             </h3>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center">
+            <div className="flex flex-wrap justify-center items-stretch gap-8">
+              <div className="text-center w-full md:w-[30%]">
                 <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="w-8 h-8 text-primary" />
                 </div>
@@ -30,7 +30,7 @@ export const WhatIsIAthon = ({ id }: { id: string }) => {
                 </ul>
               </div>
               
-              <div className="text-center">
+              <div className="text-center w-full md:w-[30%]">
                 <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="w-8 h-8 text-primary" />
                 </div>
