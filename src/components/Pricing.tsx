@@ -71,7 +71,7 @@ export const Pricing = ({ id }: { id: string }) => {
                   ))}
                 </ul>
                 
-                <a href="https://wa.me/593964222040">
+                <a href="https://wa.me/593964222040" target="_blank">
                   <Button 
                     className={`w-full bg-slate-500 hover:bg-slate-700`}
                     size="lg"

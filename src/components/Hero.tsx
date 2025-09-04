@@ -25,7 +25,7 @@ export const Hero = ({ id }: { id: string }) => {
             Convierte la IA en tu copiloto, no en tu competencia. Aprende haciendo, crea soluciones reales y transforma tu rol en HR.
           </p>
           
-          <a href="https://wa.me/593964222040">
+          <a href="https://wa.me/593964222040" target="_blank">
             <Button 
               size="lg" 
               className="text-xl px-8 py-6 bg-white text-primary hover:bg-gray-100 font-semibold shadow-2xl"
