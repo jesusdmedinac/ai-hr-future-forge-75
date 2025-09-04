@@ -1,3 +1,4 @@
+
 import { Hero } from "@/components/Hero";
 import { WhatIsIAthon } from "@/components/WhatIsIAthon";
 import { TargetAudience } from "@/components/TargetAudience";
@@ -17,21 +18,22 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <Hero />
-      <WhatIsIAthon />
-      <TargetAudience />
-      <Benefits />
-      <HowItWorks />
-      <Challenges />
-      <Mentors />
-      <SocialProof />
-      <Pricing />
-      <Certification />
-      <FAQ />
-      <Partners />
+      <Hero id="hero" />
+      <WhatIsIAthon id="what-is-iathon" />
+      <TargetAudience id="target-audience" />
+      <Benefits id="benefits" />
+      <HowItWorks id="how-it-works" />
+      <Challenges id="challenges" />
+      <Mentors id="mentors" />
+      <SocialProof id="social-proof" />
+      <Pricing id="pricing" />
+      <Certification id="certification" />
+      <FAQ id="faq" />
+      <Partners id="partners" />
       <Footer />
     </div>
   );
 };
 
 export default Index;
+

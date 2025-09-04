@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Check, Users, Building, User } from "lucide-react";
 
-export const Pricing = () => {
+export const Pricing = ({ id }: { id: string }) => {
   const plans = [
     {
       name: "Individual",
@@ -21,7 +21,7 @@ export const Pricing = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section id={id} className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center text-foreground">

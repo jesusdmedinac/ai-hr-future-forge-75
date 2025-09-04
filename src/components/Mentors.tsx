@@ -5,7 +5,7 @@ import danielaEndaraImage from "@/assets/mentor-daniela-endara.jpeg";
 import mariaFernandaGarciaImage from "@/assets/mentor-maria-fernanda-garcia.jpeg";
 import martinRomeroImage from "@/assets/mentor-martin-romero.jpeg";
 
-export const Mentors = () => {
+export const Mentors = ({ id }: { id: string }) => {
   const mentors = [
     {
       name: "Christian Rivera",
@@ -40,7 +40,7 @@ export const Mentors = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section id={id} className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center text-foreground">

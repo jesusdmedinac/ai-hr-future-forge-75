@@ -1,6 +1,6 @@
 import { Calendar, Users2, MessageSquare, Presentation } from "lucide-react";
 
-export const HowItWorks = () => {
+export const HowItWorks = ({ id }: { id: string }) => {
   const weeks = [
     {
       week: 1,
@@ -29,7 +29,7 @@ export const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section id={id} className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">

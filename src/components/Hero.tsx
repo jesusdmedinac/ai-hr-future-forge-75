@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-iathon.jpg";
 
-export const Hero = () => {
+export const Hero = ({ id }: { id: string }) => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary/90 to-primary/80">
+    <section id={id} className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary/90 to-primary/80">
       <div className="absolute inset-0 bg-black/20"></div>
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"

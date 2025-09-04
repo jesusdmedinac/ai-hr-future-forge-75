@@ -1,6 +1,6 @@
 import { Search, UserPlus, MessageCircle, BarChart, GraduationCap, CheckCircle } from "lucide-react";
 
-export const Challenges = () => {
+export const Challenges = ({ id }: { id: string }) => {
   const challenges = [
     {
       icon: Search,
@@ -30,7 +30,7 @@ export const Challenges = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section id={id} className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center text-foreground">

@@ -1,6 +1,6 @@
 import { CheckCircle, Star, Users, Award, Network } from "lucide-react";
 
-export const Benefits = () => {
+export const Benefits = ({ id }: { id: string }) => {
   const benefits = [
     {
       icon: Star,
@@ -30,7 +30,7 @@ export const Benefits = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section id={id} className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">

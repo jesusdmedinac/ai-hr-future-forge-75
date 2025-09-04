@@ -5,7 +5,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-export const FAQ = () => {
+export const FAQ = ({ id }: { id: string }) => {
   const faqs = [
     {
       question: "¿Necesito experiencia previa en IA?",
@@ -42,7 +42,7 @@ export const FAQ = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section id={id} className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-foreground">
