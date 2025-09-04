@@ -33,7 +33,7 @@ export const Mentors = ({ id }: { id: string }) => {
     },
     {
       name: "Martin Romero",
-      role: "CX Analyst at IGNIS Media Agency | Sales and Marketing",
+      role: "CMO en Skilt y Owner de MR CX",
       image: martinRomeroImage,
       linkedin: "https://www.linkedin.com/in/martin-romero-b2214973/"
     }
